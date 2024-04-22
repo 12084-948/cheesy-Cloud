@@ -1,0 +1,146 @@
+.ch {
+    position: relative;
+}
+
+
+
+.ch .right h1 {
+    font-size: 3.4rem;
+    color: #f1e72be1;
+    white-space: nowrap;
+}
+
+.ch .right h3 {
+    font-size: 3rem;
+    color: #f1e72be1;
+    left: 10rem;
+
+}
+
+
+.ch .right button {
+    font-size: 1.8rem;
+    color: #fff;
+    width: 60%;
+    margin-left: 7rem;
+    border: none;
+    background-color: rgb(38, 103, 38);
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.ch .right button:hover {
+    background-color: #f1e72be1;
+    transition: all 0.2s ease-in;
+}
+
+
+.lemonDiv {
+    position: relative;
+}
+
+.lemonDiv img {
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.left img {
+    position: absolute;
+    height: 450px;
+    width: 340px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10%;
+    border: 10px solid #f1e72be1;
+    top: 10rem;
+    margin-left: 22rem;
+}
+
+
+
+.label11:after {
+    content: '1000Rs';
+    transition: all 0.2s ease-in;
+}
+
+.label11:hover:after {
+    transition: all 0.2s ease-in;
+    content: 'Add To Cart';
+}
+
+.berryDiv {
+    height: 100%;
+    width: 100%;
+}
+
+
+.berryDiv img {
+    height: 100vh;
+    width: 110%;
+    object-fit: cover;
+}
+
+.right1 img {
+    position: absolute;
+    height: 450px;
+    width: 340px;
+    border-radius: 10%;
+    object-fit: cover;
+    object-position: center;
+    margin-top: 10rem;
+    border: 10px solid #3d367d;
+    top: 43rem;
+    left: 55rem;
+}
+
+
+
+.left1 h1 {
+    position: absolute;
+    top: 58rem;
+    left: 7rem;
+    font-size: 3.4rem;
+    color: #3d367d;
+    white-space: nowrap;
+}
+
+.left1 h3 {
+    position: absolute;
+    top: 63rem;
+    margin-left: -2rem;
+    font-size: 3rem;
+    color: #3d367d;
+    left: 20rem;
+
+}
+
+
+.ch .left1 button {
+    position: absolute;
+    top: 69rem;
+    left: 16rem;
+    font-size: 1.8rem;
+    color: #fff;
+    border: none;
+    width: 25%;
+    background-color: rgb(118, 79, 48);
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.left1 button:hover {
+    background-color: #3d367d;
+    transition: all 0.2s ease-in;
+}
+
+.label12:after {
+    content: '1000Rs';
+    transition: all 0.2s ease-in;
+}
+
+.label12:hover:after {
+    transition: all 0.2s ease-in;
+    content: 'Add To Cart';
+}

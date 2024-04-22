@@ -1,0 +1,124 @@
+.salads {
+    position: relative;
+}
+
+
+.salads img {
+    height: 175vh;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.saladsss1 {
+    height: 360px;
+    width: 270px;
+    border: 5px #6D2932 solid;
+    border-radius: 12px;
+    box-shadow: 5px 5px 19px 0 rgba(0, 0, 0, 1);
+}
+
+.saladsss1 img {
+    height: 220px;
+    width: 180px;
+    display: block;
+    margin: auto;
+    margin-top: 2.4rem;
+}
+
+.salad1 {
+    width: 200px;
+    height: 10px;
+    margin: auto;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.saladsss1 h3 {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #6D2932;
+    margin-top: 1.5rem;
+}
+
+.saladsss1 button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.5rem;
+    border: none;
+    background-color: #6D2932;
+    color: white;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+    margin-top: 3rem;
+}
+
+.saladsss1 button:hover {
+    transition: all 0.2s ease-in;
+    background-color: lightcoral;
+}
+
+.saladsss1:hover .salad1 {
+    transform: scale(1.1)
+}
+
+.label13:after {
+    content: '120Rs';
+    transition: all 0.2s ease-in;
+}
+
+.label13:hover:after {
+    transition: all 0.2s ease-in;
+    content: 'Add To Cart';
+}
+
+.saladsDiv {
+    position: absolute;
+    display: grid;
+    grid-template-columns: 0.1fr 4fr;
+    grid-gap: 12rem 10rem ;
+    margin-left: 9rem;
+    top: 12rem;
+}
+
+.label14:after {
+    content: '240Rs';
+    transition: all 0.2s ease-in;
+}
+
+.label14:hover:after {
+    transition: all 0.2s ease-in;
+    content: 'Add To Cart';
+}
+
+.label15:after {
+    content: '270Rs';
+    transition: all 0.2s ease-in;
+}
+
+.label15:hover:after {
+    transition: all 0.2s ease-in;
+    content: 'Add To Cart';
+}
+
+.label16:after {
+    content: '230Rs';
+    transition: all 0.2s ease-in;
+}
+
+.label16:hover:after {
+    transition: all 0.2s ease-in;
+    content: 'Add To Cart';
+}
+
+.label17:after {
+    content: '280Rs';
+    transition: all 0.2s ease-in;
+}
+
+.label17:hover:after {
+    transition: all 0.2s ease-in;
+    content: 'Add To Cart';
+}

@@ -1,0 +1,146 @@
+#beverages{
+    position: relative;
+}
+
+.bevContent img {
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.bevContent .bvgBg {
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.glow {
+    height: 360px;
+    width: 270px;
+    border: 5px #6D2932 solid;
+    border-radius: 12px;
+    box-shadow: 5px 5px 19px 0 rgba(0, 0, 0, 1);
+}
+
+
+.glowJuice {
+    height: 220px;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    margin-top: 2.5rem;
+}
+
+
+.glow h3 {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #6D2932;
+    margin-top: 1.5rem;
+}
+
+
+.glow button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.5rem;
+    border: none;
+    background-color: #6D2932;
+    color: white;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+    margin-top: 3rem;
+}
+
+.glow button:hover {
+    transition: all 0.2s ease-in;
+    background-color: lightcoral;
+}
+
+
+
+.glow:hover .glowJuice {
+    transform: scale(1.1)
+}
+
+
+
+.label3:after {
+    content: '120Rs';
+    transition: all 0.2s ease-in;
+}
+
+.label3:hover:after {
+    transition: all 0.2s ease-in;
+    content: 'Add To Cart';
+}
+
+.label4:after {
+    content: '180Rs';
+    transition: all 0.2s ease-in;
+}
+
+.label4:hover:after {
+    transition: all 0.2s ease-in;
+    content: 'Add To Cart';
+}
+
+.label5:after {
+    content: '120Rs';
+    transition: all 0.2s ease-in;
+}
+
+.label5:hover:after {
+    transition: all 0.2s ease-in;
+    content: 'Add To Cart';
+}
+
+.label6:after {
+    content: '230Rs';
+    transition: all 0.2s ease-in;
+}
+
+.label6:hover:after {
+    transition: all 0.2s ease-in;
+    content: 'Add To Cart';
+}
+
+.label7:after {
+    content: '250Rs';
+    transition: all 0.2s ease-in;
+}
+
+.label7:hover:after {
+    transition: all 0.2s ease-in;
+    content: 'Add To Cart';
+}
+
+.label8:after {
+    content: '250Rs';
+    transition: all 0.2s ease-in;
+}
+
+.label8:hover:after {
+    transition: all 0.2s ease-in;
+    content: 'Add To Cart';
+}
+
+.bev {
+    position: absolute;
+    top: 0;
+    margin-top: 9rem;
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 0.2fr 0.2fr 0.2fr;
+    place-items: center;
+    margin-left: 13rem;
+    grid-gap: 21rem 8rem;
+    /* position: absolute;
+    left: 8rem; */
+}

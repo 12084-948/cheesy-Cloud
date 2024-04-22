@@ -1,0 +1,82 @@
+.navItems {
+    position: absolute;
+    top: 0;
+    background-color: white;
+    color: #6D2932;
+    width: 95%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    border-radius: 13px;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
+    left: 50%;
+    transform: translate(-50%);
+    top: 20px;
+    z-index: 99;
+}
+
+.navItems h1 {
+    font-size: 27px;
+}
+
+.navMenu ul {
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+    font-size: 19px;
+}
+
+.navMenu a {
+    display: flex;
+    height: 50px;
+    border-radius: 12px;
+    padding: 10px;
+    align-items: center;
+}
+
+a{
+    color: #6D2932;
+    text-decoration: none;
+}
+
+.navMenu a:hover {
+    color: #fff;
+    background-color: #D37676;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.navItems i {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.navItems i:hover {
+    transform: scale(1.4);
+    transition: all 0.2s ease-in-out;
+}
+
+.navItems button{
+    border: none;
+    outline: none;
+    font-size: 20px;
+    background-color: #D37676;
+    color: #fff;
+    cursor: pointer;    
+    height: 50px;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.navItems button:hover{
+    background-color: #6D2932;
+    transition: all 0.3s ease-in-out;
+}
+
+.cart{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
